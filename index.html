@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="clouds" aria-hidden="true">
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+    <div class="cloud cloud-4"></div>
+    <div class="cloud cloud-5"></div>
+  </div>
+  <div class="lens-flares" aria-hidden="true">
+    <div class="lens-flare lens-flare-tl">
+      <span class="lens-flare-core"></span>
+      <span class="lens-flare-ray ray-0"></span>
+      <span class="lens-flare-ray ray-90"></span>
+      <span class="lens-flare-ray ray-180"></span>
+      <span class="lens-flare-ray ray-270"></span>
+    </div>
+    <div class="lens-flare lens-flare-br">
+      <span class="lens-flare-core"></span>
+      <span class="lens-flare-ray ray-0"></span>
+      <span class="lens-flare-ray ray-90"></span>
+      <span class="lens-flare-ray ray-180"></span>
+      <span class="lens-flare-ray ray-270"></span>
+    </div>
+  </div>
+  <div class="grass" aria-hidden="true">
+    <div class="grass-blades"></div>
+  </div>
+  <div class="waterdrops" aria-hidden="true">
+    <span class="drop drop-1"></span>
+    <span class="drop drop-2"></span>
+    <span class="drop drop-3"></span>
+    <span class="drop drop-4"></span>
+    <span class="drop drop-5"></span>
+    <span class="drop drop-6"></span>
+    <span class="drop drop-7"></span>
+    <span class="drop drop-8"></span>
+    <span class="drop drop-9"></span>
+    <span class="drop drop-10"></span>
+    <span class="drop drop-11"></span>
+    <span class="drop drop-12"></span>
+  </div>
+  <div class="bubbles" aria-hidden="true">
+    <div class="bubble bubble-1"></div>
+    <div class="bubble bubble-2"></div>
+    <div class="bubble bubble-3"></div>
+    <div class="bubble bubble-4"></div>
+    <div class="bubble bubble-5"></div>
+    <div class="bubble bubble-6"></div>
+    <div class="bubble bubble-7"></div>
+    <div class="bubble bubble-8"></div>
+    <div class="bubble bubble-9"></div>
+    <div class="bubble bubble-10"></div>
+    <div class="bubble bubble-11"></div>
+    <div class="bubble bubble-12"></div>
+  </div>
+  <div class="clock">
+    <div class="clock-face">
+      <div class="clock-numbers">
+        <div class="clock-number" data-n="12"><span class="clock-leaf"></span><span class="clock-digit">12</span></div>
+        <div class="clock-number" data-n="1"><span class="clock-leaf"></span><span class="clock-digit">1</span></div>
+        <div class="clock-number" data-n="2"><span class="clock-leaf"></span><span class="clock-digit">2</span></div>
+        <div class="clock-number" data-n="3"><span class="clock-leaf"></span><span class="clock-digit">3</span></div>
+        <div class="clock-number" data-n="4"><span class="clock-leaf"></span><span class="clock-digit">4</span></div>
+        <div class="clock-number" data-n="5"><span class="clock-leaf"></span><span class="clock-digit">5</span></div>
+        <div class="clock-number" data-n="6"><span class="clock-leaf"></span><span class="clock-digit">6</span></div>
+        <div class="clock-number" data-n="7"><span class="clock-leaf"></span><span class="clock-digit">7</span></div>
+        <div class="clock-number" data-n="8"><span class="clock-leaf"></span><span class="clock-digit">8</span></div>
+        <div class="clock-number" data-n="9"><span class="clock-leaf"></span><span class="clock-digit">9</span></div>
+        <div class="clock-number" data-n="10"><span class="clock-leaf"></span><span class="clock-digit">10</span></div>
+        <div class="clock-number" data-n="11"><span class="clock-leaf"></span><span class="clock-digit">11</span></div>
+      </div>
+      <div class="hand hand-hour" id="hour-hand"></div>
+      <div class="hand hand-minute" id="minute-hand"></div>
+      <div class="hand hand-second" id="second-hand"></div>
+      <div class="clock-center"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
